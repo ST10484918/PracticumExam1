@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
 
                 //when statements//
-                val settring = when (nameofplaylist) {
+                when (nameofplaylist) {
                     "The song title" -> {
                         "Millions"
                     }
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                         "Please insert the given information"
                     }
                 }
-                val Settring = when (nameofplaylist) {
+                when (nameofplaylist) {
                     "The song title" -> {
                         "Bad Blood"
                     }
@@ -87,14 +87,14 @@ class MainActivity : AppCompatActivity() {
                         "Please insert the given information"
                     }
                 }
-                val settring = when (nameofplaylist) {
+                when (nameofplaylist) {
                     "The song title" -> "Clouded"
                     "The artist's name" -> "Brent Faiyaz"
                     "The rating" -> 2
                     "User comments" -> "Best love song"
                     else -> "Please insert the given information"
                 }
-                val settring = when (nameofplaylist) {
+                when (nameofplaylist) {
                     "The song title" -> "Memories"
                     "The artist's name" -> "Maroon 5"
                     "The rating" -> 3
@@ -116,6 +116,8 @@ class MainActivity : AppCompatActivity() {
                     EditText.text.clear()
                     TextView2.text = "Reset App"
                 }
+            }
+}
 
 
 
