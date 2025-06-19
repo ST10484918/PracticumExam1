@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        } //ST10484918 JOSHUA LIAM AMOS//
+        } //ST10484918 JOSHUA LIAM AMOS IMAD5112//
     }
 
     // Creating and declearing variables for the app//
@@ -40,7 +40,8 @@ class MainActivity : AppCompatActivity() {
             .layout
             .text
             .run() {
-                Toast.makeText(this, "Add Playlist", Toast.LENGTH_SHORT).show()
+                val int = null
+                val show = Toast.makeText(int, "Add Playlist", Toast.LENGTH_SHORT).show()
                 val nameofplaylist = EditText.text.toString().trim()
 
 
@@ -102,11 +103,13 @@ class MainActivity : AppCompatActivity() {
                     else -> "please enter the given information"
                 }
                 Button2.setOnClickListener {
-                    Toast.makeText(this, "Navigate to next screen", Toast.LENGTH_SHORT).show()
+                    val int = null
+                    Toast.makeText(int, "Navigate to next screen", Toast.LENGTH_SHORT).show()
                     val nameofplaylist = EditText.text.clear()
                 }
                 Button3.setOnClickListener {
-                    Toast.makeText(this, "Exit the app", Toast.LENGTH_SHORT).show()
+                    val int = null
+                    Toast.makeText(int, "Exit the app", Toast.LENGTH_SHORT).show()
                     val nameofplaylist = EditText.text.clear()
                 }
 
